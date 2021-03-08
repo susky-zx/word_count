@@ -20,5 +20,6 @@ from . import function  # . 是当前目录
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', function.home), # path（‘网址后输入什么’，去这个网页）
+    path('count/', function.count),
     path('about/', function.about),
 ]
